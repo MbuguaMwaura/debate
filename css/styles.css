@@ -1,0 +1,16 @@
+body {
+    background-image: url("/images/light-bulb.jpg");
+   
+   color: white;
+}
+.border{
+    padding: 3%;
+    
+}
+#sign-in_btn{
+    margin-left: 370px;
+    
+}
+h3{
+    color: white;
+}
