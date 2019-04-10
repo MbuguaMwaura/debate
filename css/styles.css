@@ -49,6 +49,16 @@
             background-color: #25343d;
         }
 
-        .navbar-nav li a:hover {
+         a:hover {
             color: #e31c66 !important;
+            text-decoration: none;
         }
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
