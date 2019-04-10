@@ -21,35 +21,43 @@
     <div class="jumbotron jumbotron-fluid" id="one">
         <div class="container">
             <h1>Hi,</h1>
-</div>
-</div>
+        </div>
+    </div>
 
-    <div class="container">
-        
-    </div class = "row">
-    <div class = "col-md-12">
-  <form>
-       <textarea id="topic" rows="5" cols="5"></textarea>
-      <input type="button" onclick="gettopic()" value="Enter" /> <br>
-      <p id="top"></p>
-  </form>
+    <div class="container" id = "box">
+        <button type="button" class=" btn btn-primary" id="btnAdd">ADD</button>
+        <div class="row">
+            <div class="col-md-12" id="topic-box">
+                <form id="formTopic">
 
-    </div>    
-</div>
+                    <textarea placeholder="Write your Debate topic here ..." id="topic" type="text" class="validate" 
+                      ></textarea>
+
+                    <button type="button" class=" btn btn-primary"  id = "btnTopic" >PUBLISH</button>
+                    <br>
+                 
+                </form>
+                
+                <p id="top"><ul id="addedTopics"></ul></p>
+            </div>
+        </div>
+
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="input-field col-md-6">
                 <form>
-                    Comment: <textarea id="words" rows="5" cols="5"></textarea>
-                    <input type="button" onclick="getwords()" value="Enter" /> <br>
+                    PROPOSES: <textarea id="words" ></textarea>
+                    <input type="button" class=" btn btn-primary" id="btn" onclick="getwords()" value="ADD" /> <br>
                     <p id="para"></p>
+
+                    
                 </form>
             </div>
 
             <div class="col-md-6">
                 <form>
-                    Comment: <textarea id="word" rows="5" cols="5"></textarea>
-                    <input type="button" onclick="fetchwords()" value="Enter" /> <br>
+                    OPPOSES: <textarea id="word"></textarea>
+                    <input type="button" class=" btn btn-primary" id="btn" onclick="fetchwords()" value="ADD">
                     <p id="p"></p>
                 </form>
 
