@@ -8,6 +8,8 @@
     messagingSenderId: "270217448754"
   };
   firebase.initializeApp(config);
+ 
+ 
   var firestore = firebase.firestore();
   
   const docRef = firestore.doc("samples/sandwichData");
