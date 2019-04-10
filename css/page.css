@@ -1,11 +1,12 @@
-#one{
+#one {
     background-color: #25343d;
     height: 70%;
 }
-p{
-    color: #fff;
-    font: 900px;
-    }
-body{
+
+
+
+h1 {
     color: white;
+    font-family: 'Fascinate Inline',
+    cursive;
 }
