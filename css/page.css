@@ -7,10 +7,33 @@ h1 {
     color: white;
     font-family: 'Fascinate Inline',
     cursive;
-}
+}   
 
 body {
 background-color: #1C3C56;
+color: #fff;
 }
 
-
+#topic-box {
+    padding: 5%;
+   
+}
+#topic {
+ color: #fff;
+}
+.btn{
+    background :  #e31c66;
+    color: #fff;
+    border-radius: 24px;
+    cursor: pointer;
+}
+#btnAdd{
+    display: none;  
+}
+.hide{
+    display: none;
+}
+#top{
+    background-color: #e31c66;
+   
+}
