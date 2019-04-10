@@ -65,3 +65,16 @@
 h4{
     color: black;
 }
+span{
+    color: #e31c66;
+}
+#contact{
+    font-size: 200px;
+}
+#contactTxt{
+    font-size: 20px;  
+    padding-left: 0;  
+}
+.btn:hover{
+    color: #e31c66
+}
