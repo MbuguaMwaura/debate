@@ -46,8 +46,9 @@
             margin-bottom: 0;
             font-size: 12px;
             letter-spacing: 5px;
+            background-color: #25343d;
         }
 
         .navbar-nav li a:hover {
-            color: #1abc9c !important;
+            color: #e31c66 !important;
         }
