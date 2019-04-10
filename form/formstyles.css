@@ -1,0 +1,8 @@
+body{
+    background-image:url("/images/red.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.border{
+    margin-top: 10%;
+}
