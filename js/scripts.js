@@ -1,3 +1,8 @@
+function gettopic() {
+    text = topic.value;
+    document.getElementById("top").innerHTML += '<p>' + text
+    document.getElementById("topic").value = "Write your debate topic here"
+}
 
 
 function getwords() {
