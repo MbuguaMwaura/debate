@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -19,33 +19,56 @@
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid" id="one">
+    <nav class="navbar navbar-default">
         <div class="container">
-            <h1>Hi,</h1>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">FEED</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="profile.html">TEAM</a></li>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+    <div class="container-fluid bg-1 text-center">
+        <h1>Hi,</h1>
     </div>
 
-    <div class="container" id = "box">
+
+    <div class="container-fluid bg-2 text-center" id="box">
         <button type="button" class=" btn btn-primary" id="btnAdd">ADD</button>
         <div class="row">
             <div class="col-md-12" id="topic-box">
                 <form id="formTopic">
 
-                    <textarea placeholder="Write your Debate topic here ..." id="topic" type="text" class="validate" 
-                      ></textarea>
+                    <textarea placeholder="Write your Debate topic here ..." id="topic" type="text"
+                        class="validate"></textarea>
 
-                    <button type="button" class=" btn btn-primary"  id = "btnTopic" >PUBLISH</button>
+                    <button type="button" class=" btn btn-primary" id="btnTopic">PUBLISH</button>
                     <br>
-                 
+
                 </form>
                 <div id="submitted">
-                
+
                 </div>
             </div>
         </div>
+        </div>
+        <footer class="container-fluid bg-4 text-center">
+            <h2>powered by reason</h2>
 
+        </footer>
 
-       <!--<div class="row">
+        <!--<div class="row">
             <div class="input-field col-md-6">
                 <form>
                     PROPOSES: <textarea id="words" ></textarea>
