@@ -1,0 +1,80 @@
+  
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+           
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .margin {
+            margin-bottom: 45px;
+        }
+
+        .bg-1 {
+            background-color:#25343d;
+            /* Green */
+            color: #ffffff;
+        }
+
+        .bg-2 {
+            background-color: #1c3c56;
+            /* Dark Blue */
+            color: #ffffff;
+        }
+
+        
+
+        .bg-4 {
+            background-color: #25343d;
+            /* Black Gray */
+            color: #fff;
+        }
+
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+            background-color: #25343d;
+        }
+
+         a:hover {
+            color: #e31c66 !important;
+            text-decoration: none;
+        }
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+h4{
+    color: black;
+}
+span{
+    color: #e31c66;
+}
+#contact{
+    font-size: 200px;
+}
+#contactTxt{
+    font-size: 20px;  
+    padding-left: 0;  
+}
+.btn:hover{
+    color: #e31c66
+}
