@@ -32,6 +32,8 @@
 
     const promise = auth.createUserWithEmailAndPassword(email,pass);
     promise.catch(e => console.log(e.message));
+
+    
   });
   
   btnLogout.addEventListener('click', e => {
@@ -41,6 +43,7 @@
   firebase.auth().onAuthStateChanged(firebaseUser => {
       if(firebaseUser){
           console.log(firebaseUser);
+
           btnLogout.classList.remove('hide');
       } else {
           console.log('not logged in' );
