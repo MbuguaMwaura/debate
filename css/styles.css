@@ -40,13 +40,14 @@
 
         .navbar {
             padding-top: 15px;
-            padding-bottom: 15px;
+            padding-bottom: 30px;
             border: 0;
             border-radius: 0;
             margin-bottom: 0;
             font-size: 12px;
             letter-spacing: 5px;
             background-color: #25343d;
+            height: 70px;
         }
 
          a:hover {
@@ -77,4 +78,11 @@ span{
 }
 .btn:hover{
     color: #e31c66
+}
+a{
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+img{
+    height: 50px;
 }

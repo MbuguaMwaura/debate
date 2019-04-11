@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 (function(){
   // Initialize Firebase
   var config = {
@@ -159,7 +158,6 @@ getRealtimeUpdates = function(){
 }
 
 getRealtimeUpdates();*/
-=======
 $(document).ready(function () {
     document.getElementById("btnTopic").addEventListener("click", function () {
         var text = topic.value;
@@ -204,4 +202,3 @@ $(document).ready(function () {
         
     });
 });
->>>>>>> 124a358b6b8ff2753682487bfbdb9e3daa916cbd
