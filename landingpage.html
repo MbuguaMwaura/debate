@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/page.css">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Landing-Page</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid" id="one">
+        <div class="container">
+            <h1>Hi,</h1>
+        </div>
+    </div>
+
+    <div class="container" id = "box">
+        <button type="button" class=" btn btn-primary" id="btnAdd">ADD</button>
+        <div class="row">
+            <div class="col-md-12" id="topic-box">
+                <form id="formTopic">
+
+                    <textarea placeholder="Write your Debate topic here ..." id="topic" type="text" class="validate" 
+                      ></textarea>
+
+                    <button type="button" class=" btn btn-primary"  id = "btnTopic" >PUBLISH</button>
+                    <br>
+                 
+                </form>
+                <div id="submitted">
+                
+                </div>
+            </div>
+        </div>
+
+
+       <!--<div class="row">
+            <div class="input-field col-md-6">
+                <form>
+                    PROPOSES: <textarea id="words" ></textarea>
+                    <input type="button" class=" btn btn-primary" id="btn" onclick="getwords()" value="ADD" /> <br>
+                    <p id="para"></p>
+
+                    
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <form>
+                    OPPOSES: <textarea id="word"></textarea>
+                    <input type="button" class=" btn btn-primary" id="btn" onclick="fetchwords()" value="ADD">
+                    <p id="p"></p>
+                </form>
+
+            </div>
+        </div> -->
+</body>
+
+</html>
