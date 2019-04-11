@@ -59,3 +59,7 @@ button{
     margin-top: 0%;
     float: none;
 }
+.collapse li{
+    margin: 0;
+    padding: 0%;
+}
