@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-(function(){
+/*(function(){
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyDCKUWhdRIDgK4uM412c2x5MIFTOjsEqg8",
@@ -159,9 +158,9 @@ getRealtimeUpdates = function(){
 }
 
 getRealtimeUpdates();*/
-=======
 $(document).ready(function () {
     document.getElementById("btnTopic").addEventListener("click", function () {
+       
         var text = topic.value;
         var paragraph = document.createElement("li");
         var node = document.createTextNode(text);
@@ -183,10 +182,26 @@ $(document).ready(function () {
        button.innerHTML = "comment";
 
         button.addEventListener("click", function () {
-             $("#formTopic").show();
+            $("#formComment").show();  
+
+            
+                document.getElementById("add").addEventListener("click", function () {
+
+                    var text = words.value;
+                    var paragraph = document.createElement("li");
+                    var node = document.createTextNode(text);
+                    paragraph.appendChild(node);
+                    var element = document.getElementById("para");
+                    element.appendChild(paragraph);
+
+
+                });
+            
+
+
+            
         });
-
-
+       
        
        var i;
         for (i = 0; ;i++) {
@@ -204,4 +219,8 @@ $(document).ready(function () {
         
     });
 });
->>>>>>> 124a358b6b8ff2753682487bfbdb9e3daa916cbd
+
+var submitted = {
+    "post" : "",
+    "id": "",
+}
