@@ -63,7 +63,7 @@
   top: 0;
   width: 100%;
 }
-h4{
+h4,h5{
     color: black;
 }
 span{
@@ -86,3 +86,4 @@ a{
 #logo{
     height: 50px;
 }
+
