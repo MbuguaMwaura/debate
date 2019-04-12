@@ -59,10 +59,7 @@ button{
     margin-top: 0%;
     float: none;
 }
-.collapse li{
-    margin: 0;
-    padding: 0%;
-}
+
 #btnPropose{
     float: left;
       margin-top: 0%;
@@ -90,21 +87,24 @@ p.something{
     border: 2px solid white;
     border-radius: 10pc;
 }
-h5{
-    background-color: #25343d;
-    width: 60%;
-    border-radius: 10pc;
-    float: right;
-    padding: 10px;
-    border: 2px solid red;
-}
+
 #commentSection{
     display: none;
     margin-top: 5%; 
+    
 }
 .oppose{
   background-color: #25343d;
   border: 2px solid red;  
   border-radius: 10pc;
   font-size: 25px;
+}
+#box{
+    background-color: #fff;
+}
+textarea{
+    color: black;
+}
+#topic{
+    color: black;
 }
