@@ -17,10 +17,9 @@ var config = {
   
   saveButton.addEventListener("click", function(){
       const textToSave = inputTextField.value;
-      const userData = data.push(textToSave); 
       console.log("I am going to save " + textToSave + " to Firestore");
-      docRef.push({
-          hotDogStatus: userData
+      docRef.set({
+          hotDogStatus: textToSave
       }).then(function(){
           console.log("Status saved!");
       }).catch(function(error){
@@ -51,3 +50,4 @@ getRealtimeUpdates = function(){
 }
 
 getRealtimeUpdates();
+

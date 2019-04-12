@@ -63,7 +63,7 @@
   top: 0;
   width: 100%;
 }
-h4,h5{
+h4{
     color: black;
 }
 span{
@@ -85,5 +85,12 @@ a{
 }
 #logo{
     height: 50px;
+}
+.avatar{
+    height: 200.67px;
+    width: 160.72px;
+}
+h5{
+    color: white;
 }
 
