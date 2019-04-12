@@ -29,17 +29,17 @@ color: #fff;
 }
 #btnAdd{
     display: none;  
+     margin-top: 0%;
 }
 .hide{
     display: none;
 }
-li{
+.something{
     background-color: #25343d;
-    height: 50px;
+    
     border-radius: 10px;
     padding: 5px;
-    list-style: none;
-    margin: 10%;
+    font-size: 30px;
 }
 #submitted{
     font-size: 30px;
@@ -53,7 +53,7 @@ button{
       cursor: pointer;
       float: right;
       font-size: 14px;
-      margin-top: 10%;
+      margin-top: 5%;
 }
 #btnTopic{
     margin-top: 0%;
@@ -62,4 +62,49 @@ button{
 .collapse li{
     margin: 0;
     padding: 0%;
+}
+#btnPropose{
+    float: left;
+      margin-top: 0%;
+}
+#btnOppose{
+    float: right;
+     margin-top: 0%;
+}
+p.propose{
+    background-color: #25343d;
+    border: 2px solid green;
+    border-radius: 10pc;
+ 
+    font-size: 25px;
+}
+p.oppose {
+    background-color: #25343d;
+    
+    border-radius: 10pc;
+}
+p.something{
+    border: none;
+    border-radius: 0%;
+    width:100%;
+    border: 2px solid white;
+    border-radius: 10pc;
+}
+h5{
+    background-color: #25343d;
+    width: 60%;
+    border-radius: 10pc;
+    float: right;
+    padding: 10px;
+    border: 2px solid red;
+}
+#commentSection{
+    display: none;
+    margin-top: 5%; 
+}
+.oppose{
+  background-color: #25343d;
+  border: 2px solid red;  
+  border-radius: 10pc;
+  font-size: 25px;
 }

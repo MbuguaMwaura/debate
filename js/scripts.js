@@ -107,47 +107,97 @@ getRealtimeUpdates = function(){
 }
 
 getRealtimeUpdates();*/
+//create fn
+//passs topic value as parameter
+// return text 
+//call the fn
+var user = [];
+
 $(document).ready(function () {
     document.getElementById("btnTopic").addEventListener("click", function () {
-        var text = topic.value;
-        var paragraph = document.createElement("li");
-        var node = document.createTextNode(text);
+
+
+        var input = topic.value
+        var post = {
+            'post': input
+        }
+        user.push(post)
+        console.log(user)
+
+        var paragraph = document.createElement("p");
+        var node = document.createTextNode(input);
         paragraph.appendChild(node);
         var element = document.getElementById("submitted");
         element.appendChild(paragraph);
-       
+
         $("#btnAdd").show();
         $("#formTopic").hide();
-        $("li").addClass('something'); 
+        $("p").addClass('something');
 
-         document.getElementById("btnAdd").addEventListener("click", function () {
-             $("#btnAdd").hide();
-             $("#formTopic").show();
-         })
 
-        
-       var button = document.createElement("button");
-       button.innerHTML = "comment";
+
+        var button = document.createElement("button");
+        var body = document.getElementsByClassName("something")[0];
+        body.appendChild(button);
+        button.innerHTML = "comment";
+
+        document.getElementById("btnAdd").addEventListener("click", function () {
+            $("#btnAdd").hide();
+            $("#formTopic").show();
+        })
+
 
         button.addEventListener("click", function () {
-             $("#formTopic").show();
+            $("#commentSection").show();
+            
         });
 
-
-       
-       var i;
-        for (i = 0; ;i++) {
-       var body = document.getElementsByClassName("something")[i];
-       body.appendChild(button);
+    });
+    document.getElementById("btnPropose").addEventListener("click", function () {
+        var input = userComments.value;
+        var paragraph = document.createElement("p");
+        var node = document.createTextNode(input);
+        paragraph.appendChild(node);
+        var element = document.getElementById("proposer");
+        element.appendChild(paragraph);
+        $("p").addClass('propose');
+    });
+    document.getElementById("btnOppose").addEventListener("click", function () {
+        var input = userComments.value;
+        var paragraph = document.createElement("p");
+        var node = document.createTextNode(input);
+        paragraph.appendChild(node);
+        var element = document.getElementById("opposer");
+        element.appendChild(paragraph);
+        $("p").addClass('oppose');
+        
       
-        };
-     
        
-        
-
-       
-    
-   
-        
     });
 });
+
+/*   var user = 0;
+        var result = {
+            "array": []
+        };
+
+        for (var i = 0; i < 2; i++) {
+        user[i] = {
+           "post": "heeey"
+       };
+
+      result["post"].push
+       
+           var valueDict = {};
+           for (var j = 0; j < 2; j++) {
+               valueDict["value" + (j + 1).toString()] = "value";
+           }
+            result["post"].push(valueDict);
+       }
+      
+
+
+
+   
+});
+*/

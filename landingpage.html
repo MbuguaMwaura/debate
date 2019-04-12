@@ -47,7 +47,8 @@
     <div class="container-fluid bg-2 text-center" id="box">
         <button type="button" class=" btn btn-primary" id="btnAdd">ADD</button>
         <div class="row">
-            <div class="col-md-12" id="topic-box">
+            <div class="col-md-1"></div>
+            <div class="col-md-10" id="topic-box" >
                 <form id="formTopic">
 
                     <textarea placeholder="Write your Debate topic here ..." id="topic" type="text"
@@ -60,6 +61,20 @@
                 <div id="submitted">
 
                 </div>
+                
+                <div id="commentSection">
+                    <div class="row">
+                        <div class="col-md-6" id="proposer">
+                            
+                        </div>
+                        <div class="col-md-6" id="opposer">
+
+                        </div>
+                    </div>
+                    <textarea id="userComments"></textarea>
+                    <button type="button" class="btn btn-primary" id="btnPropose">propose</button>
+                    <button type="button" class="btn btn-primary" id="btnOppose">oppose</button>
+                </div>
             </div>
         </div>
         </div>
@@ -71,7 +86,7 @@
         <!--<div class="row">
             <div class="input-field col-md-6">
                 <form>
-                    PROPOSES: <textarea id="words" ></textarea>
+                    PROPOSES: 
                     <input type="button" class=" btn btn-primary" id="btn" onclick="getwords()" value="ADD" /> <br>
                     <p id="para"></p>
 
