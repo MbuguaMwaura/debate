@@ -113,6 +113,46 @@ getRealtimeUpdates();*/
 //call the fn
 var user = [];
 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Initialize Firebase
+*/
 $(document).ready(function () {
     document.getElementById("btnTopic").addEventListener("click", function () {
 
